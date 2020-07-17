@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('../img/image2.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 70px;
+}
+
+.top-wrapper p {
+ 
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #e3e4e6;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 40px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #525252;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family: arial black;
+}
+
+.header-right a:hover {
+  background-color: rgba(102, 153, 255, 0.3);
+  color: white;
+}
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display :none;
+  display:none;
+
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;  
+  margin-bottom: 5spx;
+}
+
+.lesson-icon p{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+  text-transform: capitalize;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url('../img/bawah.png');
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #00bfff;
+  cursor: pointer;
+  box-shadow: 0 7px #006bbd;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #0a224a;
+}
+
+section{
+  padding:40px ;
+  background-color: #f2f2f2;
+}
+
+.section2{
+  padding:5px ;
+  padding-bottom: 20;
+  background-color: #075fdb;
+}
+
+
+section h2{
+  text-align: center;
+  padding: 40px 0 10px 0;
+  color:black; 
+  margin-bottom: 25px;
+}
+ p{
+  
+}
+.p{
+  color: black;
+  text-align: justify;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.p2{
+  color: white;
+  text-align: justify;
+  word-spacing: 2px;
+  line-height: 25px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.white{
+  color: white;
+  text-transform: uppercase;
+}
+
+.materi{
+
+}
